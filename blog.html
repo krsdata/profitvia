@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Profit-Via</title>
+		<meta name="description" content="">
+		<meta name="author" content="Laze">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0;">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
+		<link rel="stylesheet" href="css/style_hero.css">
+		<!-- CSS reset -->
+		<link rel="stylesheet" href="css/style1.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Resource style -->
+
+		<!-- Font awsome -->
+		<link rel="stylesheet" href="css/slider.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+		<!-- Add fancyBox -->
+		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+
+		<link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
+		<link rel="stylesheet" type="text/css" href="css/hover.css">
+		<!-- Owl carousel-->
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<!-- Animate style -->
+		<link rel="stylesheet"  type="text/css" href="css/animate.css">
+		<!-- Hover effects style -->
+		<link rel="stylesheet" type="text/css" href="css/effects.css">
+		<!-- Bootstrap -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<!-- Main style -->
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<link rel="stylesheet" type="text/css" href="includes/video_gallery_ie.css" />
+		<![endif]-->
+		
+	</head>
+<style>
+.cta-with-image {
+    position: relative
+}
+.cta-with-image .wrap {
+    overflow: visible;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    height: 100%;
+    color: #fff;
+    z-index: 10
+}
+.cta-with-image .wrapper-container {
+    display: table;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 100
+}
+.cta-with-image .wrapper-content {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 10px
+}
+.cta-with-image .wrapper-content h2 {
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 600;
+    letter-spacing: -4px;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 28px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+@media screen and (max-width: 640px) {
+    .cta-with-image .wrapper-content h2 {
+        letter-spacing: -1px
+    }
+}
+@media screen and (max-width: 420px) {
+    .cta-with-image .wrapper-content h2 {
+        font-size: 28px;
+        line-height: 28px
+    }
+}
+.cta-with-image .wrapper-content h3 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: -1px;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 28px;
+    padding: 0;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+    opacity: 0.8
+}
+@media screen and (max-width: 640px) {
+    .cta-with-image .wrapper-content h3 {
+        letter-spacing: 0
+    }
+}
+.cta-with-image .wrapper-content .paragraph {
+    margin-bottom: 28px
+}
+@media screen and (max-width: 640px) {
+    .cta-with-image .wrapper-content .paragraph {
+        font-size: 14px;
+        margin-bottom: 14px
+    }
+}
+.cta-with-image .wrapper-content .primary-button {
+    margin-right: 30px;
+   text-decoration:none;
+}
+.cta-with-image .wrapper-content .primary-button:last-child {
+    margin-right: 0
+}
+.cta-with-image .img-container {
+    background-color: #e22004;
+}
+.cta-with-image .img-container img {
+    width: 100%;
+    min-width: 1060px;
+    position: relative;
+    display: block;
+    background-size: cover;
+    opacity: 0.4
+}
+@media screen and (max-width: 1060px) {
+    .cta-with-image .img-container img {
+       /* left: 50%;
+        transform: translate(-50%, 0)*/
+    }
+}
+.cta-with-image .header-pattern {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-repeat: repeat;
+    overflow: hidden;
+    background-image: url(../images/share-bannerimg.jpg);
+    opacity: 0.05
+}
+</style>
+	<body>
+     <!-- Modal -->
+		  <div class="modal fade" id="myModal" role="dialog" style="overflow-y: hidden;">
+			<div class="modal-dialog" style="transform: translate(0, 17%);">
+			
+			  <!-- Modal content-->
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal" style="text-align: right;color:#e22004;">&times;</button>
+				  <h4 class="modal-title" style="text-align: center; color:#e22004;   font-size: 30px;font-weight: 900;">Modal Header</h4>
+				</div>
+				<div class="modal-body">
+				    <div id="trail-form">													
+						
+						<input type="text" name="dname" value="Your Name"/>
+						<input type="text" name="demail" value="Your Email"/>
+						
+						<select>
+								<option>General Query</option>
+								<option>General Query</option>
+								<option>General Query</option>
+								<option>General Query</option>
+							</select>
+						
+						<textarea type="text" value="message">Message</textarea><br/>
+						<button style="background-color:#e22004; color:#fff; font-weight:900;">Send Message</button>								
+					</div>
+				</div>
+				<div class="modal-footer">
+				  
+				</div>
+			  </div>
+			  
+			</div>
+		  </div>
+    <!-- End Modal -->
+	
+	<div class="new-header" style="background: #eab96b;">
+	    <marquee class="header-top">SEBI Registration NO.INA000003627 Investment in stock and commodity market are subject to market risk. Please do not trade on those tips which are not provided through SMS or messenger.</marquee>
+			<div class="">
+			    <div class="container">
+					<div class="col-md-3 upper-box">
+						<div class="free-trail-btn">
+							<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="background-color:#e22004;font-weight:900;    animation-name: hvr-pulse;animation-duration: 1s; border-color:#e22004;animation-timing-function: linear;animation-iteration-count: infinite;">Free Trail </button>
+						</div>
+					</div>
+				   <div class="col-md-8 upper-box" style="margin-top:15px;">
+					   <div class="col-md-12">
+								  <div class="col-md-3 col-sm-3 col-xs-6">
+								  <div class="boxes clr1 hvr-pulse">
+							  <a href="" class="upper-box"><i class="fa fa-credit-card"></i> PAY ONLINE</a>
+							  </div>
+								 </div>
+							<div class="col-md-3 col-sm-3 col-xs-6">
+								  <div class="boxes clr2 hvr-pulse">
+								  <a href="" class="upper-box"><i class="fa fa-play"></i> LIVE TV</a>
+								  </div>
+							</div>
+							
+							   <div class="col-md-3 col-sm-3 col-xs-6 ">
+							  <div class="boxes clr3 hvr-pulse">
+							   <a href="" class="upper-box"><i class="fa fa-inr"></i> LIVE RATE</a>
+							  </div>
+							  </div>
+							  
+							  <div class="col-md-3 col-sm-3 col-xs-6">
+							  <div class="boxes clr4 hvr-pulse">
+							   <a href="whatsapp.html" class="upper-box"  data-toggle="modal" data-target="#myModal"><i class="fa fa-comments"></i>Whatsapp</a>
+							  </div>
+
+							  </div>
+					   </div>
+				   </div>
+				</div>
+            </div> 			   
+	</div>
+
+
+		<div class="top-line">
+			<div class="top-header">
+				<div class="container" style="text-align: center;">
+					<div class="row">
+						<div class="col-md-8">
+							<ul class="info">
+								<li>
+									<i class="fa fa-volume-control-phone" aria-hidden="true"></i>Phone +123-456-7890
+								</li>
+								<li>
+									<i class="fa fa-envelope-o" aria-hidden="true"></i>Mail@profitviateam.com
+								</li>
+								<li>
+									<i class="fa fa-map-marker" aria-hidden="true"></i>Apple St, Indore, BY 1002
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<ul class="social-icons">
+								<li>
+									<a href="" ><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								</li>
+								<li>
+									<a href="" ><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								</li>
+								<li>
+									<a href="" ><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+								</li>
+								<li>
+									<a href="" ><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+								</li>
+								<li>
+									<a href="" ><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<nav id="main-navigation-wrapper" class="navbar navbar-default finance-navbar">
+			<div class="container">
+				<div class="logo pull-left">
+					<a href="home.html" class="logo-desktop"><img src="images/logo.png" alt="Awesome Image"></a> <a href="" class="logo-mobile"><img src="images/logo.png" alt="Awesome Image"></a>
+				</div>
+				<div class="navbar-header">
+					<button type="button" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false" class="navbar-toggle collapsed">
+						<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button>
+				</div>
+				<div id="main-navigation" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav pull-right">
+						<li class="dropdown">
+							<a href="home.html">Home</a>
+						</li>
+						<li class="dropdown">
+							<a href="aboutourcompany.html">about us</a>
+							<ul class="dropdown-submenu">
+								<li>
+									<a href="aboutourcompany.html">About Our Company</a>
+								</li>
+								<li>
+									<a href="meet the team.html">Meet Our Team</a>
+								</li>
+								<li>
+									<a href="Faq.html">FAQ</a>
+								</li>
+								<li>
+									<a href="Testimonials.html">Testimonials</a>
+								</li>
+
+							</ul>
+						</li>
+						<li class="dropdown">
+						    <a href="services.html">Services</a>
+							<!-- <ul class="dropdown-submenu"> -->
+								<!-- <li> -->
+									<!-- <a href="aboutourcompany.html">Basic</a> -->
+								<!-- </li> -->
+								<!-- <li> -->
+									<!-- <a href="meet the team.html">Premium</a> -->
+								<!-- </li> -->
+								<!-- <li> -->
+									<!-- <a href="Faq.html">Positional</a> -->
+								<!-- </li> -->
+								<!-- <li> -->
+									<!-- <a href="Testimonials.html">HNI</a> -->
+								<!-- </li> -->
+
+							<!-- </ul> -->
+						</li>
+							<!-- <a href="services.php" class="dropdown-toggle">Services  <span class="glyphicon glyphicon-chevron-down pull-right" style="margin-top: 4px;margin-left: 2px;"></span></a>							 -->
+							<!-- <ul class="dropdown-submenu" id="dropmenu"> -->
+								<!-- <li class="col-sm-3"> -->
+									<!-- <ul class=""> -->
+										<!-- <li class="dropdown-header" style="color:#fff;">Basic</li> -->
+										<!-- <li><a href="stock-cash-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> Stock Cash Tips </a></li> -->
+										<!-- <li><a href="stock-future-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> Stock Future Tips </a></li> -->
+										<!-- <li><a href="option-call-put-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> Option Call-Put Tips </a></li> -->
+										<!-- <li><a href="base-metal-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> Base Metal Tips </a></li> -->
+										<!-- <li><a href="precious-metal-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> Precious Metal Tips </a></li> -->
+										<!-- <li><a href="energy-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> Energy Tips </a></li> -->
+										<!-- <li><a href="mcx-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> MCX Tips </a></li> -->
+										<!-- <li><a href="ncdex-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> NCDEX Tips </a></li> -->
+										<!-- <li><a href="forex-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> Forex Tips </a></li> -->
+										<!-- <li><a href="nifty-bank-nifty-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> Nifty/Bank Nifty Tips </a></li> -->
+										<!-- <li><a href="star-india-pariwar-basic-plan.php"><i class="fa fa-play faply" aria-hidden="true"></i> Star India Pariwar Basic Plan </a></li> -->
+										<!-- <li><a href="nifty-option-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> Nifty Option Tips </a></li> -->
+																
+									<!-- </ul> -->
+								<!-- </li> -->
+								<!-- <li class="col-sm-3"> -->
+									<!-- <ul> -->
+										<!-- <li class="dropdown-header" style="color:#fff;">Premium </li> -->
+										<!-- <li><a href="stock-cash-premium-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> Stock Cash Premium Tips </a></li> -->
+										<!-- <li><a href="stock-future-premium-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> Stock Future Premium Tips </a></li> -->
+										<!-- <li><a href="stock-option-premium-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> Stock Option Premium Tips </a></li> -->
+										<!-- <li><a href="bullion--premium.php"><i class="fa fa-play faply" aria-hidden="true"></i> Bullion  Premium </a></li> -->
+										<!-- <li><a href="ncdex-premium-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> NCDEX Premium Tips </a></li> -->
+										<!-- <li><a href="energy-premium-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> Energy Premium Tips </a></li> -->
+										<!-- <li><a href="star-india-pariwar-premium-plan.php"><i class="fa fa-play faply" aria-hidden="true"></i> Star India Pariwar Premium Plan </a></li> -->
+										<!-- <li><a href="inventory-calls.php"><i class="fa fa-play faply" aria-hidden="true"></i> Inventory Calls </a></li> -->
+																
+									<!-- </ul> -->
+								<!-- </li> -->
+								<!-- <li class="col-sm-3"> -->
+									<!-- <ul> -->
+										<!-- <li class="dropdown-header" style="color:#fff;">Positional</li> -->
+										<!-- <img src="images/services.jpg"> -->
+										<!-- <li><a href="stock-future-btst-stbt-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> Stock Future BTST STBT Tips </a></li> -->
+										<!-- <li><a href="stock-cash-btst-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> Stock Cash BTST Tips </a></li> -->
+																	
+									<!-- </ul> -->
+								<!-- </li> -->
+							    <!-- <li class="col-sm-3"> -->
+									<!-- <ul> -->
+										<!-- <li class="dropdown-header" style="color:#fff;">HNI </li> -->
+										<!-- <img src="images/services.jpg"> -->
+										<!-- <li><a href="hni-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> HNI Tips </a></li> -->
+										<!-- <li><a href="nifty-star-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> Nifty Star Tips </a></li> -->
+										<!-- <li><a href="platinum-tips-(combo-pack).php"><i class="fa fa-play faply" aria-hidden="true"></i> Platinum Tips (Combo Pack) </a></li> -->
+										<!-- <li><a href="circuit-plan-(stock-cash).php"><i class="fa fa-play faply" aria-hidden="true"></i> Circuit Plan (Stock Cash) </a></li> -->
+										<!-- <li><a href="stock-cash-platinum-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> Stock Cash Platinum Tips </a></li> -->
+										<!-- <li><a href="stock-future-platinum-tips.php"><i class="fa fa-play faply" aria-hidden="true"></i> Stock Future Platinum Tips </a></li> -->
+										<!-- <li><a href="stock-option-platinum-tips-.php"><i class="fa fa-play faply" aria-hidden="true"></i> Stock Option Platinum Tips  </a></li>		 -->
+									<!-- </ul> -->
+								<!-- </li> -->
+							<!-- </ul>	 -->
+						<!-- </li> -->
+						<li class="dropdown">
+							<a href="payment.html">Payment</a>
+							
+						</li>
+						<li class="dropdown">
+							<a href="pricing.html">Pricing</a>
+							
+						</li>
+						<li class="dropdown">
+							<a href="freetrail.html">Free trial</a>
+							
+						</li>
+						<li class="dropdown">
+							<a href="whatsapp.html">Whatsapp</a>
+							
+						</li>
+						<li class="dropdown">
+							<a href="report.html">Report</a>
+						</li>
+						
+						 <li class="dropdown"> 
+							 <a href="index.html">More</a> 
+							 <ul class="dropdown-submenu">
+							 <li> 
+									<a href="blog.html">Blog</a>
+								 </li>
+								 <li>
+								<a href="kyc.html">Kyc</a>
+								 </li>
+
+							</ul>
+						 </li> 
+						
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		
+		<div class="overfree">
+			<div class="col-md-12 pad0">
+				<div class="cta-with-image">
+					<div class="wrap">
+						<div class="wrapper-container">
+							<div class="wrapper-content">
+							<h2 style="font-size: 40px;letter-spacing: -1px;font-weight:900;">Blog</h2>							
+							</div>
+						</div>
+					</div>
+					<div class="img-container">
+					    <img alt="" src="images/share-bannerimg.jpg">
+					    <div class="header-pattern"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<section>
+		    <div class="container-fluid">
+			    <div class="entry-content">
+					<h3 style="text-align:center;margin-top: 48px;"></h3>
+					<div class="col-md-12" style="text-align: center;">
+
+					</div>
+					<div class="title123 wow rotateIn animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: rotateIn;">						
+						<span class="col-sm-12" style="text-align: center; margin-bottom:30px;"><span class="ong">Blog</span><img src="images/icon1.png" style=" margin-top: -28px;"></span>
+					</div>
+					
+                </div>
+			</div>
+		</section>
+		<section>
+		    <div class="container-fluid">
+			    <div class="container">
+				    <div class="row">
+						<div class="col-md-12">
+							<div class="col-sm-12 col-md-6">
+							    <div class="aboutus_text">
+									<h2 style=" margin-bottom:25px;font-weight:700; font-size:30px;color: #3f6dc3;">Company overview</h2>
+									<p>Lorem ipsum dolor amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<p>Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet, consectetur eiusmod ut labore et aliqua some of our following Departments.</p>
+									<p>Vestibulum industry, logistics, finance, business, power Aliquam ultrices venenatis mauris. industry, logistics, finance, business, consectetur.</p>
+									<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere rhoncus est. Nulla molestie, sapien quis vehicula vehicula, enim quam ultrices leo, nec suscipit dui elit eu leo. </blockquote>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6">
+							    <div class="aboutus_page">
+									<div class="aboutus-ourVision">
+										<div class="img-box"><img class="img-responsive" src="images/aboutUs.jpg" alt="" style=" border: 3px solid #e22004; border-bottom-right-radius: 53px;border-top-left-radius: 53px;"> </div>
+										
+									</div>
+                        	    </div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row" style="margin-top:30px; margin-bottom:20px;">
+						<div class="col-md-12">
+						    <div class="col-sm-12 col-md-6">
+							    <div class="aboutus_page">
+									<div class="aboutus-ourVision">
+										<div class="img-box"><img class="img-responsive" src="images/aboutUs.jpg" alt="" style=" border: 3px solid #e22004; border-bottom-right-radius: 53px;border-top-left-radius: 53px;"> </div>
+										
+									</div>
+                        	    </div>
+							</div>
+							<div class="col-sm-12 col-md-6">
+							    <div class="aboutus_text">
+									<h2 style=" margin-bottom:25px;font-weight:700; font-size:30px;color: #3f6dc3;">Why Choose Us</h2>
+									<p>Lorem ipsum dolor amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<p>Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet, consectetur eiusmod ut labore et aliqua some of our following Departments.</p>
+									<p>Vestibulum industry, logistics, finance, business, power Aliquam ultrices venenatis mauris. industry, logistics, finance, business, consectetur.</p>
+									<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere rhoncus est. Nulla molestie, sapien quis vehicula vehicula, enim quam ultrices leo, nec suscipit dui elit eu leo. </blockquote>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					
+					<div class="row" style="margin-top:30px; margin-bottom:20px;">
+						<div class="col-md-12">
+							<div class="col-sm-12 col-md-6">
+							    <div class="aboutus_text">
+									<h2 style=" margin-bottom:25px;font-weight:700; font-size:30px;color: #3f6dc3;">Company History</h2>
+									<p>Lorem ipsum dolor amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<p>Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet, consectetur eiusmod ut labore et aliqua some of our following Departments.</p>
+									<p>Vestibulum industry, logistics, finance, business, power Aliquam ultrices venenatis mauris. industry, logistics, finance, business, consectetur.</p>
+									<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere rhoncus est. Nulla molestie, sapien quis vehicula vehicula, enim quam ultrices leo, nec suscipit dui elit eu leo. </blockquote>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6">
+							    <div class="aboutus_page">
+									<div class="aboutus-ourVision">
+										<div class="img-box"><img class="img-responsive" src="images/aboutUs.jpg" alt="" style=" border: 3px solid #e22004; border-bottom-right-radius: 53px;border-top-left-radius: 53px;"> </div>
+										
+									</div>
+                        	    </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<!-- footer section -->
+		<footer class="main-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 social-icons">
+						<img src="images/logo_white.png" />
+						<p>
+							Benenatis mauris. Vestibulum ante the ipsum primis in industry, logistics, finance, business mauris.
+						</p>
+						<ul>
+							<li>
+								<a href="" ><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</li>
+							<li>
+								<a href="" ><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							</li>
+							<li>
+								<a href="" ><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+							</li>
+							<li>
+								<a href="" ><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+							</li>
+							<li>
+								<a href="" ><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-3 services">
+						<h3>Our Links</h3>
+						<ul>
+							<li>
+								<a href="queries-complaints.html">Queries and Complaints</a>
+							</li>
+							<li>
+								<a href="privacypolicy.html">Privacy Policy</a>
+							</li>
+							<li>
+								<a href="termscondition.html">Terms & Conditions</a>
+							</li>
+                            <li>
+								<a href="disclaimer.html">Disclaimer</a>
+							</li>
+							<li>
+								<a href="contact-us.html">Contact us</a>
+							</li>
+						</ul>
+						<!-- <ul> -->
+							<!-- <li> -->
+								<!-- <a href=""> Town 5248 MT</a> -->
+							<!-- </li> -->
+							<!-- <li> -->
+								<!-- <a href="">Wordwide Country</a> -->
+							<!-- </li> -->
+							<!-- <li> -->
+								<!-- <a href="">Wordwide Country</a> -->
+							<!-- </li> -->
+						<!-- </ul> -->
+					</div>
+					<div class="col-md-3 news">
+						<h3>Latest News</h3>
+						<ul>
+							<li>
+								<a href="" >Seminar for improve your businessprofit &amp; loss </a>
+								<br>
+								<span>January 15, 2017</span>
+							</li>
+							<li>
+								<a href="" >Experts Openion for save money</a>
+								<br>
+								<span>January 15, 2017</a></span>
+							</li>
+							<li>
+								<a href="" >Experts Openion for save money</a>
+								<br>
+								<span>January 15, 2017</span>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-3 get-in-touch">
+						<h3>Get in Touch</h3>
+						<ul>
+							<li>
+								<i class="fa fa-map-marker" aria-hidden="true"></i>42 Tailstoi Town 5248 MT, Wordwide Country
+							</li>
+							<li>
+								<i class="fa fa-clock-o" aria-hidden="true"></i>Mon to Fri - 08:00 to 16:30
+							</li>
+							<li>
+								<i class="fa fa-phone" aria-hidden="true"></i>( 018) 65 524 8503 / (125) 954 7854
+							</li>
+							<li>
+								<i class="fa fa-envelope-o" aria-hidden="true"></i>contact@financepro.com
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<section class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="pull-left">
+						<p>
+							Copyright © Finance Pro 2017. All rights reserved.
+						</p>
+					</div>
+					<div class="pull-right">
+						<p>
+							Created by: Infoway
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<a class="scroll-top" href="#"><i class="fa fa-angle-up"></i> </a>
+		<!-- Scripts -->
+		
+		
+          
+		<script type='text/javascript' src='js/jquery-3.2.1.min.js'></script>
+		<script src="js/jquery.min.js"></script>
+		    <script type='text/javascript' src='js/bootstrap.min.js'></script>
+			<script src="js/modernizr.js"></script>
+		    <!-- Modernizr -->
+		    <script src="js/owl.carousel.min.js"></script>
+			<script src="js/foundation.min.js"></script>
+			 <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+			 <script type="text/javascript" src="js/jquery.fancybox-media.js"></script>
+			 <script src="js/wow.min.js"></script>
+			 <script src="js/jquery.countTo.js"></script>
+			<script src="https://maps.googleapis.com/maps/api/js"></script>
+			<script src="http://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.24/gmaps.min.js"></script>
+			<script src="js/map-helper.js"></script>
+			<script src="js/jquery.mixitup.min.js"></script>
+			<script src="js/bootstrap-select.min.js"></script>
+			<script src="js/Chart.min.js"></script>
+			<script src="js/jquery.validate.min.js"></script>
+			<script src="js/waypoints.min.js"></script>
+			<script src="js/jquery.counterup.min.js"></script>
+			<script src="js/theme.js"></script>
+            
+		   
+
+	</body>
+</html>
